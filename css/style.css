@@ -27,7 +27,6 @@ section {
     margin: 0 auto;
 }
 
-
 .hero-container {
     width: 100%;
     height: 100vh;
@@ -47,27 +46,46 @@ section {
 
 .hero h1 {
     font-size: 98px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .hero h4 {
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 300;
 }
 
-.hero a {
+.btn {
     color: #882AEC;
     font-size: 20px;
     text-align: center;
-    padding: 12px 0;
-    width: 170px;
+    padding: 10px 0;
+    width: 200px;
     border: 2px solid #882AEC;
-    transition: all 0.3s ease;
+    transition: all 0.5s linear;
+    position: relative;
 }
 
-.hero a:hover {
+.btn:hover {
     color: #fff;
-    background-color: #882AEC;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #882AEC;
+    z-index: -1;
+    transition: all 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(.93, .03, .48, .76);
+    transform: scaleX(0);
+}
+
+.btn:hover::before {
+    transform: scaleX(1);
 }
 
 .title-ctn {
@@ -126,15 +144,7 @@ section {
 }
 
 .prj-btn {
-    color: #882AEC;
-    padding: 10px 30px;
-    border: 2px solid #882AEC;
-    transition: all 0.3s ease;
-}
-
-.prj-btn:hover {
-    color: #fff;
-    background-color: #882AEC;
+    padding: 10px 40px;
 }
 
 .prj-picture {
@@ -201,18 +211,8 @@ footer {
     color: #882AEC;
 }
 
-.footer-contact {
-    color: #882AEC;
-    padding: 10px 20px;
-    width: 150px;
-    border: 2px solid #882AEC;
+.footer-btn {
     margin: auto;
-    transition: all 0.3s ease;
-}
-
-.footer-contact:hover {
-    color: #fff;
-    background-color: #882AEC;
 }
 
 @media screen and (max-width: 768px) {

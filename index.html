@@ -6,27 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+          integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Manuel Pineda</title>
 </head>
 <body>
-<div class="header">
 
+<div class="nav">
+    <nav>
+        <div class="logo">
+           <a id="logotxt" href="#home">Manuel Pineda</a>
+        </div>
+
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About Me</a></li>
+            <li><a href="#design" class="nav-link">Design Process</a></li>
+            <li><a href="#works" class="nav-link">My Projects</a></li>
+        </ul>
+
+    </nav>
 </div>
-<div class="hero-container">
+
+<div id="home" class="hero-container">
+
+    <!--    Your vision, my ambition, our design.-->
+
     <div class="hero">
-        <h4>Hello! My name is Manuel Pineda</h4>
-        <h1>I'm a UI/UX Designer and Developer.</h1>
-        <h4>Your vision, my ambition, our design</h4>
+        <h1>Your vision, my ambition, our design.</h1>
+        <h4>I am a web designer and developer. Scroll to see more</h4>
         <!--Your idea, my passion, our design-->
-        <a class="btn" href="mailto:manuelhpineda2000@gmail.com?subject=Hey" target="_blank" rel="noopener noreferrer">Let's
-            Chat</a>
+        <a class="btn" href="mailto:manuelhpineda2000@gmail.com?subject=Hey" target="_blank" rel="noopener noreferrer">
+            Let's Chat
+        </a>
     </div>
 </div>
 
-<section>
+<section id="about">
     <div class="container">
         <div class="title-ctn">
             <h1>About Me</h1>
@@ -55,10 +79,54 @@
     </div>
 </section>
 
-<section>
+<section id="design">
     <div class="container">
         <div class="title-ctn">
-            <h1>These are my projects</h1>
+            <h1>Design Process</h1>
+        </div>
+        <div class="design-process-ctn">
+            <div class="step">
+                <h1>01</h1>
+                <p>Goal identification - This is the initial stage of the design process. This is where I interview the
+                    client and ask strategic questions to determine what goals the new website needs to fulfill. This is
+                    the most important part of any web development process. If these questions aren’t all clearly
+                    answered in the brief, the whole project can set off in the wrong direction.
+                </p>
+            </div>
+            <div class="step step-right">
+                <h1>02</h1>
+                <p>Wireframe creation - with the goals well defined it is time for me to start designing a wireframe for
+                    the website. The next step is to find some design inspiration and build a mockup of the wireframe.
+                    Wireframes provide a framework for storing the site’s visual design and content elements, and can
+                    help identify potential challenges with the design.
+                </p>
+            </div>
+            <div class="step">
+                <h1>03</h1>
+                <p>Content creation - now with all the wire framing done it is time to start creating the content for all
+                    the individual pages keeping in mind search engine optimization (SEO).</p>
+            </div>
+            <div class="step step-right">
+                <h1>04</h1>
+                <p>Development - Development involves the bulk of the programming work, as well as loading content.
+                     Take a strategic approach, and avoid future hassles by constantly testing as you go.
+                </p>
+            </div>
+            <div class="step">
+                <h1>05</h1>
+                <p>Launch -The purpose of the launch phase is to prepare the website for public viewing. This requires
+                    final polishing of design elements, deep testing of interactivity and features and, most of all, a
+                    consideration of the user experience.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="works">
+    <div class="container">
+        <div class="title-ctn">
+            <h1>My Projects</h1>
         </div>
         <div class="two-grid prj-margin">
             <div class="prj-info">
@@ -87,14 +155,17 @@
                 </p>
                 <!--                The audience for RCBrokerage is the general populace and business owners trying to import good to-->
                 <!--                the country through the borders.-->
-                <a href="https://apps.apple.com/gb/app/you-reform-belize/id1500947379" target="_blank" class="btn prj-btn">Visit
+                <a href="https://apps.apple.com/gb/app/you-reform-belize/id1500947379" target="_blank"
+                   class="btn prj-btn">Visit
                     Site</a>
             </div>
         </div>
     </div>
 </section>
 
+
 <!--https://apps.apple.com/gb/app/you-reform-belize/id1500947379-->
+
 
 <footer>
     <div class="container">
@@ -103,16 +174,19 @@
                 <h2>Have any questions? Feel free to contact me.</h2>
             </div>
             <a href="mailto:manuelhpineda2000@gmail.com?subject=Hey" target="_blank" rel="noopener noreferrer"
-               class="btn footer-btn">Contact Me</a>
+               class="btn footer-btn">Write an Email</a>
             <div class="social-media">
+                <a href="https://github.com/manuelhpineda" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
                 <a href="https://www.instagram.com/manuel.h.pineda/" target="_blank">
-                    <ion-icon name="logo-instagram"></ion-icon>
+                    <i class="fab fa-instagram"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/manuel-pineda-7504621a1/" target="_blank">
-                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <i class="fab fa-linkedin"></i>
                 </a>
                 <a href="https://twitter.com/ManuelP73918338" target="_blank">
-                    <ion-icon name="logo-twitter"></ion-icon>
+                    <i class="fab fa-twitter"></i>
                 </a>
             </div>
             <div class="copyright">
@@ -121,6 +195,8 @@
         </div>
     </div>
 </footer>
+
+<script rel="script" src="js/main.js"></script>
 
 </body>
 </html>

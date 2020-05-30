@@ -57,5 +57,5 @@ function detectScroll() {
 if (screenWidth.matches) {
     logo.innerText = "MP."
 } else {
-    logo.innerText = "Manuel Pineda"
+    logo.innerText = "Manuel Pineda."
 }

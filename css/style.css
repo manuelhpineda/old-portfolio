@@ -8,7 +8,6 @@
 }
 
 body {
-    font-size: 18px;
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
     color: #333333;
@@ -60,7 +59,7 @@ nav {
 .logo a{
     color: #333333;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 1.2rem;
 }
 
 .nav-links {
@@ -113,18 +112,18 @@ nav {
 }
 
 .hero h1 {
-    font-size: 98px;
+    font-size: 5.5rem;
     font-weight: 800;
 }
 
 .hero h4 {
-    font-size: 24px;
+    font-size: 1.3rem;
     font-weight: 300;
 }
 
 .btn {
     color: #17B978;
-    font-size: 20px;
+    font-size: 1.1rem;
     text-align: center;
     padding: 10px 0;
     width: 200px;
@@ -162,7 +161,7 @@ nav {
 }
 
 .title-ctn h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 90px;
     letter-spacing: 1px;
 }
@@ -208,7 +207,7 @@ nav {
 }
 
 .step h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     padding-right: 1rem;
 }
 
@@ -461,23 +460,23 @@ footer {
     }
 
     .hero h1 {
-        font-size: 46px;
+        font-size: 2.8rem;
         margin-bottom: 32px;
     }
 
     .hero h4 {
-        font-size: 18px;
+        font-size: 1rem;
         margin-bottom: 32px;
     }
 
     .hero a {
-        font-size: 18px;
+        font-size: 1rem;
         padding: 8px 0;
         width: 125px;
     }
 
     .title-ctn h1 {
-        font-size: 32px;
+        font-size: 2rem;
         margin-bottom: 60px;
         letter-spacing: 1px;
     }
@@ -505,7 +504,7 @@ footer {
     }
 
     .prj-info h4 {
-        font-size: 24px;
+        font-size: 1.2rem;
         padding-bottom: 10px;
     }
 
@@ -544,11 +543,11 @@ footer {
     }
 
     .footer-txt h2 {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .social-media {
         width: 100%;
-        font-size: 34px;
+        font-size: 2rem;
     }
 }

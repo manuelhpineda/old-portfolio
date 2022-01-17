@@ -177,9 +177,11 @@ nav {
     grid-column: 1;
     font-weight: 300;
     letter-spacing: 1px;
-    display: flex;
-    align-items: center;
     line-height: 2rem;
+}
+
+.about-txt ul {
+    margin-left: 32px
 }
 
 .about-pic {
@@ -405,7 +407,12 @@ footer {
         opacity: 0;
     }
 
+    .about-txt ul {
+        margin-left: 32px
+    }
+
 }
+
 @keyframes navLinkFade {
     from {
         opacity: 0;
